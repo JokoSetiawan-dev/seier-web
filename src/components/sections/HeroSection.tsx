@@ -19,7 +19,7 @@ export default function HeroSection() {
           <h1 className="text-white font-urbanist text-[28px] tablet:text-[50px] desktop:text-[64px] font-bold">
             Jasa buat website yang cepat dan aman
           </h1>
-          <p className="text-white font-poppins font-normal text-[8px] desktop:text-[20px] tablet:text-[16px]">
+          <p className="text-white font-poppins font-normal text-[10px] desktop:text-[20px] tablet:text-[16px]">
             Optimalkan performa bisnis anda melalui website berstandar tinggi.
             Dengan fokus pada kecepatan, SEO, dan responsivitas, kami wujudkan
             platform digital yang mendorong pertumbuhan bisnis Anda.

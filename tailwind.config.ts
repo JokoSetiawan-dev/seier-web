@@ -8,10 +8,20 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ['var(--font-poppins)'],
+        urbanist: ['var(--font-urbanist)'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        'mobile': '375px',    
+        'tablet': '768px',
+        'laptop': '1024px',
+        'desktop': '1440px',
+      }
     },
   },
   plugins: [],

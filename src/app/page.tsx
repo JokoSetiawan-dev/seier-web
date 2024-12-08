@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import Navbar from "@/components/common/Navbar";
 import HeroSection from "@/components/sections/HeroSection";
 import SplashScreen from "@/components/sections/SplashScreen";
+import ServiceSection from "@/components/sections/ServiceSection";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -31,6 +32,7 @@ export default function Home() {
     <main className="relative animate-fadeIn">
       <Navbar />
       <HeroSection />
+      <ServiceSection/>
     </main>
   );
 }

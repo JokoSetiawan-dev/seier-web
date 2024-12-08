@@ -41,7 +41,7 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ finishLoading }) => {
   }, [finishLoading]);
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-[#091E26]">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-[#5ABFAD]">
       <div className="flex flex-col items-center">
         <div className="relative w-[200px] h-[200px]">
           <Image
@@ -53,7 +53,7 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ finishLoading }) => {
             priority
           />
         </div>
-        <div className="w-48 h-1 mt-4 bg-gray-200 rounded-full overflow-hidden">
+        {/* <div className="w-48 h-1 mt-4 bg-gray-200 rounded-full overflow-hidden">
           <div
             className="h-full bg-blue-500 transition-all duration-100 ease-out"
             style={{ width: `${Math.min(progress, 100)}%` }}
@@ -61,7 +61,7 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ finishLoading }) => {
         </div>
         <div className="mt-2 text-sm font-medium">
           {Math.min(Math.round(progress), 100)}%
-        </div>
+        </div> */}
       </div>
     </div>
   );

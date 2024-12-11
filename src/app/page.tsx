@@ -6,6 +6,8 @@ import Navbar from "@/components/common/Navbar";
 import HeroSection from "@/components/sections/HeroSection";
 import SplashScreen from "@/components/sections/SplashScreen";
 import ServiceSection from "@/components/sections/ServiceSection";
+import ProductValueSection from "@/components/sections/ProductValueSection";
+import TechStackSection from "@/components/sections/TechStackSection";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -33,6 +35,8 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <ServiceSection/>
+      <ProductValueSection/>
+      <TechStackSection/>
     </main>
   );
 }

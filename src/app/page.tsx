@@ -9,6 +9,7 @@ import ServiceSection from "@/components/sections/ServiceSection";
 import ProductValueSection from "@/components/sections/ProductValueSection";
 import TechStackSection from "@/components/sections/TechStackSection";
 import WorkflowSection from "@/components/sections/WorkflowSection";
+import PricingSection from "@/components/sections/PricingSection";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -39,6 +40,7 @@ export default function Home() {
       <ProductValueSection/>
       <TechStackSection/>
       <WorkflowSection/>
+      <PricingSection/>
     </main>
   );
 }

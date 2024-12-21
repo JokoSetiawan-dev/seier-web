@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import heroBackground from "../../../public/images/hero-background.jpg";
-import Link from "next/link";
+import Button from "../ui/Button";
 
 export default function HeroSection() {
   return (
@@ -23,12 +23,7 @@ export default function HeroSection() {
             Dengan fokus pada kecepatan, SEO, dan responsivitas, kami wujudkan
             platform digital yang mendorong pertumbuhan bisnis Anda.
           </p>
-          <Link
-            className="text-white font-urbanist font-bold text-[12px] tablet:text-[20px] desktop:text-[26px] bg-[#5ABFAD] rounded-full py-[10px] px-[20px] laptop:px-[25px] w-fit"
-            href="/"
-          >
-            Konsultasi sekarang
-          </Link>
+          <Button text="Konsultasi sekarang" href="/" variant="primary" />
         </div>
       </div>
 
@@ -36,16 +31,28 @@ export default function HeroSection() {
       <div className="laptop:absolute bottom-0 right-0 z-10 laptop:h-[120px] h-[100px] laptop:w-[500px] bg-white rounded-tl-[20px]">
         <div className="flex items-center justify-between h-full laptop:mx-[50px] mx-[50px] tablet:mx-[100px]">
           <div className="flex flex-col justify-center items-center">
-            <h1 className="font-urbanist font-bold text-[18px] tablet:text-[28px] text-[#5ABFAD]">7 Day</h1>
-            <p className="font-poppins font-normal text-[10px] tablet:text-[14px]">Delivery</p>
+            <h1 className="font-urbanist font-bold text-[18px] tablet:text-[28px] text-[#5ABFAD]">
+              7 Day
+            </h1>
+            <p className="font-poppins font-normal text-[10px] tablet:text-[14px]">
+              Delivery
+            </p>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <h1 className="font-urbanist font-bold text-[18px] tablet:text-[28px] text-[#5ABFAD]">FREE</h1>
-            <p className="font-poppins font-normal text-[10px] tablet:text-[14px]">UI/UX Design</p>
+            <h1 className="font-urbanist font-bold text-[18px] tablet:text-[28px] text-[#5ABFAD]">
+              FREE
+            </h1>
+            <p className="font-poppins font-normal text-[10px] tablet:text-[14px]">
+              UI/UX Design
+            </p>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <h1 className="font-urbanist font-bold text-[18px] tablet:text-[28px] text-[#5ABFAD]">SEO</h1>
-            <p className="font-poppins font-normal text-[10px] tablet:text-[14px]">Optimized</p>
+            <h1 className="font-urbanist font-bold text-[18px] tablet:text-[28px] text-[#5ABFAD]">
+              SEO
+            </h1>
+            <p className="font-poppins font-normal text-[10px] tablet:text-[14px]">
+              Optimized
+            </p>
           </div>
         </div>
       </div>

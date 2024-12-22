@@ -10,6 +10,8 @@ import ProductValueSection from "@/components/sections/ProductValueSection";
 import TechStackSection from "@/components/sections/TechStackSection";
 import WorkflowSection from "@/components/sections/WorkflowSection";
 import PricingSection from "@/components/sections/PricingSection";
+import FAQ from "@/components/sections/FaqSection";
+import CtaSection from "@/components/sections/CtaSection";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -41,6 +43,8 @@ export default function Home() {
       <TechStackSection/>
       <WorkflowSection/>
       <PricingSection/>
+      <FAQ/>
+      <CtaSection/>
     </main>
   );
 }

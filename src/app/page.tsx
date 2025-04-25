@@ -12,6 +12,7 @@ import WorkflowSection from "@/components/sections/WorkflowSection";
 import PricingSection from "@/components/sections/PricingSection";
 import FAQ from "@/components/sections/FaqSection";
 import CtaSection from "@/components/sections/CtaSection";
+import Footer from "@/components/common/Footer";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -42,9 +43,10 @@ export default function Home() {
       <ProductValueSection/>
       <TechStackSection/>
       <WorkflowSection/>
-      <PricingSection/>
+      {/* <PricingSection/> */}
       <FAQ/>
       <CtaSection/>
+      <Footer/>
     </main>
   );
 }

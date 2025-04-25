@@ -32,7 +32,7 @@ export default function HeroSection() {
         <div className="flex items-center justify-between h-full laptop:mx-[50px] mx-[50px] tablet:mx-[100px]">
           <div className="flex flex-col justify-center items-center">
             <h1 className="font-urbanist font-bold text-[18px] tablet:text-[28px] text-[#5ABFAD]">
-              7 Day
+              3 Day
             </h1>
             <p className="font-poppins font-normal text-[10px] tablet:text-[14px]">
               Delivery

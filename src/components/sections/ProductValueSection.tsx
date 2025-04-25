@@ -41,11 +41,10 @@ export default function ProductValueSection() {
                 className="h-[25px] tablet:h-[50px] laptop:h-[30px] dekstop:h-[40px] w-auto"
               />
               <h1 className="text-[16px] tablet:text-[24px] laptop:text-[16px] desktop:text-[20px] font-urbanist font-bold">
-                Lightspeed
+              Device Responsive
               </h1>
               <p className="text-[10px] tablet:text-[20px] laptop:text-[13px] desktop:text-[16px] font-poppins font-normal">
-                Akses website dan aplikasi dengan cepat menggunakan teknologi
-                terbaru.
+              Buat konsumen nyaman akses website kamu di device apapun.
               </p>
             </div>
           </div>
@@ -56,11 +55,10 @@ export default function ProductValueSection() {
                 className="h-[25px] tablet:h-[50px] laptop:h-[30px] dekstop:h-[40px] w-auto"
               />
               <h1 className="text-[16px] tablet:text-[24px] laptop:text-[16px] desktop:text-[20px] font-urbanist font-bold">
-                Lightspeed
+              SEO Optimation
               </h1>
               <p className="text-[10px] tablet:text-[20px] laptop:text-[13px] desktop:text-[16px] font-poppins font-normal">
-                Akses website dan aplikasi dengan cepat menggunakan teknologi
-                terbaru.
+              Buat website kamu mudah ditemukan dengan SEO yang di optimasi.
               </p>
             </div>
           </div>
@@ -71,11 +69,10 @@ export default function ProductValueSection() {
                 className="h-[25px] tablet:h-[50px] laptop:h-[30px] dekstop:h-[40px] w-auto"
               />
               <h1 className="text-[16px] tablet:text-[24px] laptop:text-[16px] desktop:text-[20px] font-urbanist font-bold">
-                Lightspeed
+              Competitor Research
               </h1>
               <p className="text-[10px] tablet:text-[20px] laptop:text-[13px] desktop:text-[16px] font-poppins font-normal">
-                Akses website dan aplikasi dengan cepat menggunakan teknologi
-                terbaru.
+              Kami melakukan riset kompetitor untuk membantu bisnis kamu lebih unggul.
               </p>
             </div>
           </div>
@@ -86,11 +83,10 @@ export default function ProductValueSection() {
                 className="h-[25px] tablet:h-[50px] laptop:h-[30px] dekstop:h-[40px] w-auto"
               />
               <h1 className="text-[16px] tablet:text-[24px] laptop:text-[16px] desktop:text-[20px] font-urbanist font-bold">
-                Lightspeed
+              Secure +
               </h1>
               <p className="text-[10px] tablet:text-[20px] laptop:text-[13px] desktop:text-[16px] font-poppins font-normal">
-                Akses website dan aplikasi dengan cepat menggunakan teknologi
-                terbaru.
+              Proteksi maksimal dengan teknologi keamanan terkini.
               </p>
             </div>
           </div>
@@ -101,11 +97,10 @@ export default function ProductValueSection() {
                 className="h-[25px] tablet:h-[50px] laptop:h-[30px] dekstop:h-[40px] w-auto"
               />
               <h1 className="text-[16px] tablet:text-[24px] laptop:text-[16px] desktop:text-[20px] font-urbanist font-bold">
-                Lightspeed
+              Exclusive Design
               </h1>
               <p className="text-[10px] tablet:text-[20px] laptop:text-[13px] desktop:text-[16px] font-poppins font-normal">
-                Akses website dan aplikasi dengan cepat menggunakan teknologi
-                terbaru.
+              Tampilan website yang sesuai dengan karakter bisnis kamu.
               </p>
             </div>
           </div>

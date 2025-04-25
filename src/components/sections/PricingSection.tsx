@@ -45,7 +45,7 @@ export default function PricingSection() {
       </div>
       <div className="flex flex-col items-center justify-center max-w-[270px] tablet:w-full tablet:max-w-full tablet:flex-row">
         <PricingCard title="Essential" price="Rp. 2.200.000" className="rounded-t-[15px] tablet:rounded-t-[25px] laptop:rounded-l-[20px] laptop:rounded-r-[0px]" features={essentialFeatures} />
-        <PricingCard title="Business +" price="Rp. 2.200.000" features={businessFeatures} />
+        <PricingCard title="Business +" price="Rp. 2.700.000" features={businessFeatures} />
         <PricingCard
           className="rounded-b-[15px] tablet:rounded-b-[50px] laptop:rounded-r-[20px] laptop:rounded-b-[0px]"
           title="Custom"

@@ -41,7 +41,7 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ finishLoading }) => {
   }, [finishLoading]);
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-[#5ABFAD]">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-gradient-to-r from-blue-700 to-cyan-400">
       <div className="flex flex-col items-center">
         <div className="relative w-[200px] h-[200px]">
           <Image

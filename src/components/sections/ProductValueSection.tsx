@@ -10,10 +10,7 @@ export default function ProductValueSection() {
   return (
     <section className="my-[50px] mx-[25px] tablet:my-[100px] tablet:mx-[50px] laptop:mx-[70px] desktop:mx-[150px]">
       <div className="flex flex-col font-urbanist font-bold justify-center items-center laptop:justify-start laptop:items-start mb-[50px] tablet:mb-[100px]">
-        <h1 className="text-[14px] tablet:text-[36px] laptop:text-[25px] desktop:text-[32px] text-[#5ABFAD]">
-          Kami siap
-        </h1>
-        <h1 className="text-[18px] tablet:text-[48px] laptop:text-[32px] desktop:text-[40px] text-center laptop:text-start">
+        <h1 className="text-[18px] tablet:text-[48px] laptop:text-[32px] desktop:text-[40px] text-center laptop:text-start bg-gradient-to-r from-blue-700 to-cyan-400 bg-clip-text text-transparent">
           Prioritaskan kualitas <br /> untuk website bisnis anda
         </h1>
       </div>
